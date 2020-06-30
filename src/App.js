@@ -1,8 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { connect } from "react-redux";
+import { app } from "./ActionCreater/appActionCreater";
 
 function App() {
+  const handle = (e) => {
+    console.log("-->", e.target.value);
+  };
   return (
     <div className="App">
       <header className="App-header">
@@ -18,9 +23,12 @@ function App() {
         >
           Learn React
         </a>
+        <input onClick={handle} />
       </header>
     </div>
   );
 }
+const mapStateToProps = (state) => ({});
+//const mapDispatchToProps = (dispatch) => {};
 
-export default App;
+export default connect(mapStateToProps, { app })(App);
