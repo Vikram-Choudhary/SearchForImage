@@ -1,34 +1,32 @@
-import React from "react";
-import logo from "./logo.svg";
+import React, { useState } from "react";
 import "./App.css";
-import { connect } from "react-redux";
-import { app } from "./ActionCreater/appActionCreater";
+import AppLogin from "./Components/LoginForm/login";
+import SearchApp from "./Components/Search-Image/searchApp";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Redirect,
+  Route,
+} from "react-router-dom";
 
-function App() {
-  const handle = (e) => {
-    console.log("-->", e.target.value);
+export default function App() {
+  const [isAuth, setIsAuth] = useState(false);
+  const loggedIn = () => {
+    setIsAuth(true);
   };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <input onClick={handle} />
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        {!isAuth && <Redirect to="/" />}
+        <Switch>
+          <Route exact path="/">
+            <AppLogin isAuth={loggedIn} />
+          </Route>
+          <Route exact path="/home">
+            <SearchApp />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
-const mapStateToProps = (state) => ({});
-//const mapDispatchToProps = (dispatch) => {};
-
-export default connect(mapStateToProps, { app })(App);
