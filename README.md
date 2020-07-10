@@ -12,7 +12,7 @@ In the project directory, you can run:
 
     npm start to run the Search Image App.<br />
 
-Open [http://localhost:3000](http://localhost:3000) to view Login page it in the browser.<br />
+Open [http://localhost:3000](http://localhost:3000) to view Login page in the browser.
 
 The application has the following with features:
 
