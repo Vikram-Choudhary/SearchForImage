@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Search Image App
 
-In the project directory, you can run:
+In the project directory, you can run following commands:
 
 ### `npm install`
 
