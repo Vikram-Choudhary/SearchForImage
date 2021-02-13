@@ -40,5 +40,5 @@ Feel free to ask me whatever you want. Stay tuned for more awesome projects :kis
 Please [open an issue](https://github.com/Vikram-Choudhary/SearchForImage/issues) for support or even more [open a pull request](https://github.com/Vikram-Choudhary/SearchForImage/pulls).
 
 # Happy Coding
-<a href="https://vikram-choudhary.github.io/deploy-searchforimage/">earch-Image App</a>
+<a href="https://vikram-choudhary.github.io/deploy-searchforimage/">Search-Image App</a>
 
