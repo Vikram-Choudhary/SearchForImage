@@ -26,11 +26,11 @@ Screenshots
 --------------
 ![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot1.PNG)
 --------------
-![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot1.PNG)
+![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot2.PNG)
 --------------
-![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot1.PNG)
+![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot3.PNG)
 --------------
-![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot1.PNG)
+![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot4.PNG)
 
 The application has the following with features:
 
