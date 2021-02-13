@@ -22,6 +22,16 @@ In the project directory, you can run following commands:
 
 Open [http://localhost:3000](http://localhost:3000) to view Login page in the browser.
 
+Screenshots
+--------------
+![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot1.PNG)
+--------------
+![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot1.PNG)
+--------------
+![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot1.PNG)
+--------------
+![image](https://github.com/Vikram-Choudhary/SearchForImage/blob/master/src/ScreenShots/screenshot1.PNG)
+
 The application has the following with features:
 
 - **Login Page**
