@@ -5,7 +5,6 @@
   <a href="https://vikram-choudhary.github.io/deploy-searchforimage/">Search-Image App</a>
   <br>
 </h1>
-
 ## Search Image App
 
 In the project directory, you can run following commands:
