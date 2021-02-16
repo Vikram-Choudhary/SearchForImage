@@ -6,8 +6,6 @@
   <br>
 </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).</br>
-
 ## Search Image App
 
 In the project directory, you can run following commands:
